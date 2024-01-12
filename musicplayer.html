@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoukXaLone</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./musicplayer.css">
+</head>
+<body>
+    <div class="container">
+        <div class="musicPlayerContainer"></div>
+        <audio src=""  class="audioTag">
+
+        </audio>
+        <div class="totalAndTime">00:00 / 00:00</div>
+            <div id="progressBar"  >
+                <div id="currentProgress" ></div>
+            </div>
+        <div class="musicPlayer">
+            <i class='bx bxs-skip-previous-circle previousBtn controls'></i>
+            <i class='bx bx-play-circle playBtn controls'></i>
+            <i class='bx bx-stop pauseBtn controls'></i>
+            <i class='bx bxs-skip-next-circle nextBtn controls' ></i>
+        </div>
+     
+    </div>
+  
+    <script src="./musicplayer.js"></script>
+</body>
+
+</html>
